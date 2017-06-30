@@ -1,8 +1,22 @@
 VIM SHORTCUTS
 
 
-Panes (split windows)
----------------------
+Edit
+----
+
+Description | Shortcuts
+----------- | ---------
+Insert, insert at the beginning | `i,I`
+Append, append at the end | `a,A`
+Replace, replace until the ESC | `r, R`
+Change (remove + insert), change to the end, change from the beginning | `c,C,cc`
+Cut, cut to the end, cut from the beginning | `d,D,dd`
+Copy, copy to the end, copy from the beginning | `y,Y,yy`
+Paste, paste before | `p,P`
+
+
+Panes
+-----
 
 Description | Shortcuts
 ----------- | ---------
