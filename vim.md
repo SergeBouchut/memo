@@ -1,5 +1,5 @@
-VIM SHORTCUTS
-=============
+VIM
+===
 
 
 Basics
