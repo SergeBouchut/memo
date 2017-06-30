@@ -1,6 +1,6 @@
 VIM SHORTCUTS
 
-Windows split
+Split windows
 -------------
 
 Description | Shortcuts
@@ -16,3 +16,11 @@ Swap current split with next one | `^w x`
 Resize current split width, height by n | `^w n >,<,+,-`
 Change current split width, height to n | `^w n \|,_`
 Set equal sizes for all splits | `^w =`
+
+Folding
+-------
+
+Description | Shortcuts
+----------- | ---------
+Open, close current fold | z o,c
+Open, close all folds | z M,R
