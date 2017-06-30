@@ -18,14 +18,15 @@ Insert new line, insert new line before | `o,O`
 
 Combos
 ------
+Just some samples that can be mixed \o/
 
 Description | Shortcuts
 ----------- | ---------
 Change inner word | `c i w`
 Delete inner brackets | `d i (`
 Yank inner quotes | `y i '`
-Change to newt comma | `c t ,`
-Delete forward (to including) newt dot | `d f .`
+Change to next comma | `c t ,`
+Delete forward (to including) next dot | `d f .`
 
 
 Panes
