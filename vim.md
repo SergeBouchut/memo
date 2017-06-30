@@ -9,11 +9,19 @@ Description | Shortcuts
 Insert, insert at the beginning | `i,I`
 Append, append at the end | `a,A`
 Replace, replace until the ESC | `r, R`
-Change (remove + insert), change to the end, change from the beginning | `c,C,cc`
-Cut, cut to the end, cut from the beginning | `d,D,dd`
-Copy, copy to the end, copy from the beginning | `y,Y,yy`
+Change (remove + insert), to the end, from the beginning | `c,C,cc`
+Delete (cut), to the end, from the beginning | `d,D,dd`
+Yank (copy), to the end, from the beginning | `y,Y,yy`
 Paste, paste before | `p,P`
 Insert new line, insert new line before | `o,O`
+
+
+Combos
+------
+
+Description | Shortcuts
+----------- | ---------
+Change, delete inner word, brackets | `c,d i w,(`
 
 
 Panes
