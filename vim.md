@@ -21,7 +21,11 @@ Combos
 
 Description | Shortcuts
 ----------- | ---------
-Change, delete inner word, brackets | `c,d i w,(`
+Change inner word | `c i w`
+Delete inner brackets | `d i (`
+Yank inner quotes | `y i '`
+Change to newt comma | `c t ,`
+Delete forward (to including) newt dot | `d f .`
 
 
 Panes
