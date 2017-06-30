@@ -43,9 +43,7 @@ Panes
 
 Description | Shortcuts
 ----------- | ---------
-Open a file in a new horizontal, vertical pane | `:sp,:vs`
-Open the current file in a new horizontal pane | `CTRL-w n`
-Open an empty new horizontal pane | `CTRL-w s`
+Open specified file (current file by default) in a new horiz, vert pane | `:sp,:vs <filepath>`
 Switch cursor to next, previous pane | `CTRL-w w,W`
 Switch cursor to left, bottom, up, right pane | `CTRL-w h,j,k,l`     
 Rotate all panes clockwise, anti-clockwise | `CTRL-w r,R`
