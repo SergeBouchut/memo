@@ -9,7 +9,7 @@ Description | Shortcuts
 ----------- | ---------
 Insert, insert at the beginning | `i,I`
 Append, append at the end | `a,A`
-Replace, replace until the ESC | `r, R`
+Replace, replace until the ESC | `r,R`
 Change (remove + insert), change to the end | `c,C`
 Delete (cut), delete to the end | `d,D`
 Yank (copy), yank to the end | `y,Y`
