@@ -1,14 +1,26 @@
-WINDOWS SPLIT
+VIM SHORTCUTS
 
-:sp :vs         horizontal / vertical split
+Windows split
+-------------
 
-^w  w W         switch to next / previous split
-^w  h j k l     switch to left / bottom / up / right split
+Horizontal / vertical split:
+  :sp :vs
 
-^w  r R         rotate all splits clockwise / anti-clockwise
-^w  H J K L     move current split to specific position
-^w  x           swap current split with next one
+Switch to next / previous split:
+  ^w w W
+Switch to left / bottom / up / right split:
+  ^w h j k l     
 
-^w. > < + -     resize current split width / height by .
-^w. | _         change current split width / height to .
-^w  =           change to equal sizes
+Rotate all splits clockwise / anti-clockwise:
+  ^w r R
+Move current split to specific position:
+  ^w H J K L
+Sap current split with next one:
+  ^w x
+
+Resize current split width / height by n:
+  ^w n > < + -
+Change current split width / height to n:
+  ^w. | \_
+Set equal sizes:
+  ^w =
