@@ -13,6 +13,7 @@ Change (remove + insert), change to the end, change from the beginning | `c,C,cc
 Cut, cut to the end, cut from the beginning | `d,D,dd`
 Copy, copy to the end, copy from the beginning | `y,Y,yy`
 Paste, paste before | `p,P`
+Insert new line, insert new line before | `o,O`
 
 
 Panes
