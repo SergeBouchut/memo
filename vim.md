@@ -51,6 +51,7 @@ Indent all the file | `gg = G`
 
 Panes
 -----
+Go further: http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily?useskin=monobook
 
 Description | Shortcuts
 ----------- | ---------
