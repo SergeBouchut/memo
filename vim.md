@@ -24,3 +24,4 @@ Description | Shortcuts
 ----------- | ---------
 Open, close current fold | `z o,c`
 Open, close all folds | `z M,R`
+Set fold method based on identation (for XML files) | `:set fdm=indent`
