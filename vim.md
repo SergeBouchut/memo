@@ -47,6 +47,9 @@ Yank inner quotes | `y i '`
 Change to next comma | `c t ,`
 Delete forward (to including) next dot | `d f .`
 Indent all the file | `gg = G`
+Indent lines block | `V >`
+:heart: Insert,append text on column | `CTRL-v I,A <text> ESC`
+Remove text on column | `CTRL-v x`
 
 
 Panes
