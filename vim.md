@@ -16,6 +16,7 @@ Paste, paste before | `p,P`
 Insert new line, insert new line before | `o,O`
 Auto indent, increase indent, decrease indent | `=,<,>`
 Change shift (indent) width | `:set sw=2`
+Toggle case | `~`
 Change, delete, yank, indent all the current line | `cc,dd,yy,==,<<,>>`
 
 
@@ -26,6 +27,9 @@ Description | Shortcuts
 ----------- | ---------
 Move to left, bottom, up, right | `h,j,k,l`
 Move to first, last line | `gg,G`
+Move to next, previous word | `w,b`
+Move to next, previous search result | `n,N`
+Move down, up, forward (down x2), back (up x2) | `CTRL-d,u,F,B`
 
 
 Combos
