@@ -16,6 +16,7 @@ Paste, paste before | `p,P`
 Insert new line, insert new line before | `o,O`
 Auto indent, increase indent, decrease indent | `=,<,>`
 Change shift (indent) width | `:set sw=2`
+Change, delete, yank, indent all the current line | `cc,dd,yy,==,<<,>>`
 
 
 Moves
