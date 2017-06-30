@@ -60,7 +60,7 @@ Rotate all panes clockwise, anti-clockwise | `CTRL-w r,R`
 Move current pane to left, bottom, up, right position | `CTRL-w H,J,K,L`
 Swap current pane with next one | `CTRL-w x`
 Resize current pane widthpane, height by # | `CTRL-w # >,<,+,-`
-Change current pane width, height to # | `CTRL-w # \|,_`
+Change current pane width, height to # | `CTRL-w # |,_`
 Set equal sizes for all panes | `CTRL-w =`
 
 
