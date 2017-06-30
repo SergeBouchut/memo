@@ -16,6 +16,15 @@ Paste, paste before | `p,P`
 Insert new line, insert new line before | `o,O`
 
 
+Moves
+-----
+
+Description | Shortcuts
+----------- | ---------
+Move to left, bottom, up, right | `h,j,k,l`
+Move to first, last line | `gg,G`
+
+
 Combos
 ------
 Just some samples that can be mixed \o/
