@@ -9,11 +9,13 @@ Description | Shortcuts
 Insert, insert at the beginning | `i,I`
 Append, append at the end | `a,A`
 Replace, replace until the ESC | `r, R`
-Change (remove + insert), to the end, from the beginning | `c,C,cc`
-Delete (cut), to the end, from the beginning | `d,D,dd`
-Yank (copy), to the end, from the beginning | `y,Y,yy`
+Change (remove + insert), change to the end | `c,C`
+Delete (cut), delete to the end | `d,D`
+Yank (copy), yank to the end | `y,Y`
 Paste, paste before | `p,P`
 Insert new line, insert new line before | `o,O`
+Auto indent, increase indent, decrease indent | `=,<,>`
+Change shift (indent) width | `:set sw=2`
 
 
 Moves
@@ -36,6 +38,7 @@ Delete inner brackets | `d i (`
 Yank inner quotes | `y i '`
 Change to next comma | `c t ,`
 Delete forward (to including) next dot | `d f .`
+Indent all the file | `gg = G`
 
 
 Panes
@@ -43,7 +46,7 @@ Panes
 
 Description | Shortcuts
 ----------- | ---------
-Open specified file (current file by default) in a new horiz, vert pane | `:sp,:vs <filepath>`
+Open file (current file by default) in a new horiz, vert pane | `:sp,:vs <filepath>`
 Switch cursor to next, previous pane | `CTRL-w w,W`
 Switch cursor to left, bottom, up, right pane | `CTRL-w h,j,k,l`     
 Rotate all panes clockwise, anti-clockwise | `CTRL-w r,R`
