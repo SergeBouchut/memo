@@ -29,7 +29,7 @@ Move to left, bottom, up, right | `h,j,k,l`
 Move to first, last line | `gg,G`
 Move to next, previous word | `w,b`
 Move to next, previous search result | `n,N`
-Move down, up, forward (down x2), back (up x2) | `CTRL-d,u,F,B`
+Move down, up, forward (down x2), back (up x2) | `CTRL- d,u,F,B`
 
 
 Combos
