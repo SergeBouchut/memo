@@ -56,7 +56,7 @@ Go further: http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily?us
 Description | Shortcuts
 ----------- | ---------
 Open file (current file by default) in a new horizontal, vertical pane | `:sp,:vs <filepath>`
-:heart: Open an horizontal pane on current file directory | `:S`
+:heart: Open an horizontal, vertical pane on current file directory | `:S,:Vex`
 Switch cursor to next, previous pane | `CTRL-w w,W`
 Switch cursor to left, bottom, up, right pane | `CTRL-w h,j,k,l`     
 Rotate all panes clockwise, anti-clockwise | `CTRL-w r,R`
@@ -65,6 +65,7 @@ Swap current pane with next one | `CTRL-w x`
 Resize current pane widthpane, height by # | `CTRL-w # >,<,+,-`
 Change current pane width, height to # | `CTRL-w # \|,_`
 Set equal sizes for all panes | `CTRL-w =`
+Set split on right,below (left, above by default) | `:set spr,splitbelow`
 
 
 Marks
