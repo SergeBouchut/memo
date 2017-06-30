@@ -1,8 +1,8 @@
 VIM SHORTCUTS
 
 
-Edit
-----
+Basics
+------
 
 Description | Shortcuts
 ----------- | ---------
