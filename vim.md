@@ -12,5 +12,5 @@ Rotate all splits clockwise / anti-clockwise | `^w r,R`
 Move current split to left, bottom, up, right position | `^w H,J,K,L`
 Sap current split with next one | `^w x`
 Resize current split width / height by n | `^w n >,<,+,-`
-Change current split width / height to n | `^w n |,_`
+Change current split width / height to n | `^w n \|,_`
 Set equal sizes | `^w =`
