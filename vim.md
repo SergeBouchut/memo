@@ -67,6 +67,7 @@ Set equal sizes for all panes | `CTRL-w =`
 
 Marks
 -----
+Go further: http://vim.wikia.com/wiki/Using_marks?useskin=monobook
 
 Description | Shortcuts
 ----------- | ---------
