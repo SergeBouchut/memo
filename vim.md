@@ -13,6 +13,8 @@ Windows split
 - Change current split width / height to n: `^w n |,_`
 - Set equal sizes: `^w =`
 
+Description | Shortcuts
+----------- | ---------
 Horizontal / vertical split | `:sp,:vs`
 Switch to next, previous split | `^w w,W`
 Switch to left, bottom, up, right split | `^w h,j,k,l`     
