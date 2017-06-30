@@ -22,5 +22,5 @@ Folding
 
 Description | Shortcuts
 ----------- | ---------
-Open, close current fold | z o,c
-Open, close all folds | z M,R
+Open, close current fold | `z o,c`
+Open, close all folds | `z M,R`
