@@ -37,7 +37,7 @@ Move to line # | `# G`
 
 Combos
 ------
-Just some samples that can be mixed \o/
+Just some samples that can be mixed :wink:
 
 Description | Shortcuts
 ----------- | ---------
