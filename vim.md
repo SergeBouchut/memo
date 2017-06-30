@@ -30,6 +30,7 @@ Move to first, last line | `gg,G`
 Move to next, previous word | `w,b`
 Move to next, previous search result | `n,N`
 Move down, up | `CTRL- d,u`
+Move to line # | `# G`
 
 
 Combos
