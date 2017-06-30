@@ -77,6 +77,7 @@ List all marks | `:marks`
 
 Folds
 -----
+Go further: http://vim.wikia.com/wiki/Folding?useskin=monobook
 
 Description | Shortcuts
 ----------- | ---------
