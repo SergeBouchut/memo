@@ -16,7 +16,7 @@ Yank (copy), yank to the end | `y,Y`
 Paste, paste before | `p,P`
 Insert new line, insert new line before | `o,O`
 Auto indent, increase indent, decrease indent | `=,<,>`
-Change shift (indent) width | `:set sw=2`
+Set shift (indent) width | `:set sw=2`
 Toggle, lower, upper case,  | `~,gu,gU`
 Change, delete, yank, indent all the current line | `cc,dd,yy,==,<<,>>`
 Undo, redo | `u,CTRL-r`
