@@ -55,8 +55,8 @@ Go further: http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily?us
 
 Description | Shortcuts
 ----------- | ---------
-Open file (current file by default) in a new horiz, vert pane | `:sp,:vs <filepath>`
-:heart: Open a horiz pane on current file directory | `:S`
+Open file (current file by default) in a new horizontal, vertical pane | `:sp,:vs <filepath>`
+:heart: Open an horizontal pane on current file directory | `:S`
 Switch cursor to next, previous pane | `CTRL-w w,W`
 Switch cursor to left, bottom, up, right pane | `CTRL-w h,j,k,l`     
 Rotate all panes clockwise, anti-clockwise | `CTRL-w r,R`
