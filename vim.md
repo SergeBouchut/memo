@@ -1,7 +1,8 @@
 VIM SHORTCUTS
 
-Split windows
--------------
+
+Panes (split windows)
+---------------------
 
 Description | Shortcuts
 ----------- | ---------
@@ -17,8 +18,19 @@ Resize current pane widthpane, height by # | `^w # >,<,+,-`
 Change current pane width, height to # | `^w # \|,_`
 Set equal sizes for all panes | `^w =`
 
-Folding
--------
+
+Marks
+-----
+
+Description | Shortcuts
+----------- | ---------
+Create a new mark # | `m #`
+Switch to mark # | `' #`
+List all marks | `:marks`
+
+
+Folds
+-----
 
 Description | Shortcuts
 ----------- | ---------
