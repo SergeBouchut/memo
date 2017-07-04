@@ -2,6 +2,7 @@ VIM
 ===
 ![VIM](https://raw.githubusercontent.com/SergeBouchut/memo/master/vim.png)
 
+
 Basics
 ------
 
