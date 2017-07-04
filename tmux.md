@@ -8,9 +8,10 @@ Basics
 
 Description | Shortcuts
 ----------- | ---------
-New terminal | `tmux`
-Attach terminal | `tmux -a`
-
+New session | `tmux`
+List sessions | `tmux ls`
+Attach session | `tmux -a`
+Detach session | `CTRL-b d`
 
 Windows (tabs)
 --------------
