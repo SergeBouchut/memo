@@ -10,22 +10,23 @@ class Notes(models.Model):
     FLAG_WORK = 0b0010
 ```
 
-Notes TODO
+Get all notes TODO:
 ```
 Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO))
 ```
 
-Object with flag 1 or flag 2
-```
-Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO | Notes.FLAG_2))
-```
-
-Object without flag 1
+Get all notes except TODO:
 ```
 Notes.objects.filter(flags=F('flags').bitand(~Notes.FLAG_TODO))
 ```
 
-Object without flag 1 nor flag 2
+Get all notes TODO for WORK:
 ```
-Notes.objects.filter(flags=F('flags').bitand(~(Notes.FLAG_TODO | Notes.FLAG_2)))
+Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO | Notes.FLAG_WORK))
+Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO).bitor(Notes.FLAG_WORK))
+```
+
+Get all notes TODO but not for WORK:
+```
+Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO).bitand(~Notes.FLAG_WORK))
 ```
