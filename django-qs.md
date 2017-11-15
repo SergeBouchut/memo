@@ -31,6 +31,11 @@ Get all notes TODO except those for WORK:
 Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO).bitand(~Notes.FLAG_WORK))
 ```
 
+Get all notes except those TODO for WORK:
+```
+###Notes.objects.filter(flags=F('flags').bitor(Notes.FLAG_TODO).bitand(~Notes.FLAG_WORK))
+```
+
 Get all notes except those TODO or those for WORK:
 ```
 Notes.objects.filter(flags=F('flags').bitand(~Notes.FLAG_TODO).bitand(~Notes.FLAG_WORK))
