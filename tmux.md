@@ -37,3 +37,4 @@ Move current pane to the left, right | `CTRL-b {,}`
 Kill current pane | `CTRL-b x`
 Toggle pane zoom (full-screen mode) | `CTRL-b z`
 Swap panes | `CTRL-b CTRL-o`
+Resize pane | `CTRL-b CTRL-<arrow>`
